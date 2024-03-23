@@ -1,27 +1,20 @@
-import { FaArrowRightLong } from "react-icons/fa6";
+import { houseParts } from "../assets/data/data";
+
 export default function House() {
   return (
     <div className="mb-5 ">
-      <ul className="flex flex-wrap capitalize  justify-center gap-8 identifier">
-        <li>
-          l'entrée <FaArrowRightLong className="icon" /> <span>المدخل</span>
-        </li>
-        <li>
-          la cuisine <FaArrowRightLong className="icon" />
-          <span>المطبخ</span>
-        </li>
-        <li>
-          la salle de bains <FaArrowRightLong className="icon" />{" "}
-          <span>حمام</span>
-        </li>
-        <li>
-          la chambre <FaArrowRightLong className="icon" />
-          <span>غرفة النوم</span>
-        </li>
-        <li>
-          la salon <FaArrowRightLong className="icon" />
-          <span>غرفة المعيشة</span>
-        </li>
+      <ul className="flex flex-wrap   justify-center gap-4 ">
+        {houseParts.map(({ part, image }) => {
+          return (
+            <li
+              key={part}
+              className="center flex-1  py-3 basis-40 gap-2 flex-col-reverse"
+            >
+              <span className="text-lg">{part}</span>
+              <img src={image} alt="" className="w-20" />
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
