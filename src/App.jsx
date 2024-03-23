@@ -1,16 +1,16 @@
 import Heading from "./components/Heading";
-import Menu from "./components/Menu";
-import Question from "./layout/Question";
-import House from "./components/House";
-import Possessif from "./components/Possessif";
-import Prendre from "./components/Prendre";
+import Menu from "./layout/Menu";
+import Question from "./components/Question";
+import House from "./layout/House";
+import Possessif from "./layout/Possessif";
+import Prendre from "./layout/Prendre";
+import Footer from "./layout/Footer";
+import Hero from "./layout/Hero";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center my-10">
-        French First Exam / Second Course
-      </h1>
+      <Hero />
       <Heading>Le Menu</Heading>
       <Question>
         Écrivez le menu du restaurant: proposez 3 entrées, 2 viandes, 1 poisson,
@@ -26,6 +26,7 @@ function App() {
       <div className="my-5"></div>
       <Question>conjugaison d'un verbe (prendre)</Question>
       <Prendre />
+      <Footer />
     </>
   );
 }

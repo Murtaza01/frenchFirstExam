@@ -10,7 +10,7 @@ export default function House() {
               key={part}
               className="center flex-1  py-3 basis-40 gap-2 flex-col-reverse"
             >
-              <span className="text-lg">{part}</span>
+              <span className="text-xl ">{part}</span>
               <img src={image} alt="" className="w-20" />
             </li>
           );

@@ -1,5 +1,5 @@
 import React from "react";
-import Gender from "../layout/Gender";
+import Gender from "../components/Gender";
 import masculin from "../assets/images/man.png";
 import feminin from "../assets/images/woman.png";
 
