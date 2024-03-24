@@ -8,6 +8,14 @@ import livingRoom from "../images/houseParts/living-room.png";
 import pie from "../images/menuItems/pie.png";
 import salad from "../images/menuItems/salad.png";
 import steak from "../images/menuItems/steak.png";
+import water from "../images/menuItems/water.png";
+import wine from "../images/menuItems/wine.png";
+import fruitJuice from "../images/menuItems/fruitJuice.png";
+import chicken from "../images/menuItems/chicken.png";
+import chocolate from "../images/menuItems/chocolate.png";
+import salamon from "../images/menuItems/salamon.png";
+import snails from "../images/menuItems/snails.png";
+import chickenSalad from "../images/menuItems/chickenSalad.png";
 
 export const houseParts = [
   {
@@ -38,16 +46,16 @@ export const menuItems = [
     title: "Entrées",
     items: [
       {
-        item: "les escargots ",
-        image: salad,
+        item: "les escargots",
+        image: snails,
       },
       {
         item: "le salade italienne",
         image: salad,
       },
       {
-        item: "le salade fruités",
-        image: salad,
+        item: " salade au poulet",
+        image: chickenSalad,
       },
     ],
   },
@@ -56,15 +64,15 @@ export const menuItems = [
     items: [
       {
         item: "une carafe d'eau",
-        image: salad,
+        image: water,
       },
       {
         item: "le vin",
-        image: salad,
+        image: wine,
       },
       {
         item: "le jus de fruit",
-        image: salad,
+        image: fruitJuice,
       },
     ],
   },
@@ -73,7 +81,7 @@ export const menuItems = [
     items: [
       {
         item: "le poulet basquaise",
-        image: salad,
+        image: chicken,
       },
       {
         item: "le steak frites",
@@ -92,7 +100,7 @@ export const menuItems = [
       },
       {
         item: "la mousse au chocolat",
-        image: salad,
+        image: chocolate,
       },
     ],
   },
@@ -101,7 +109,7 @@ export const menuItems = [
     items: [
       {
         item: "le saumon",
-        image: salad,
+        image: salamon,
       },
     ],
   },

@@ -15,7 +15,7 @@ export default function Menu() {
                   className="flex last:border-none border-b-[1px] border-gray-400 justify-between items-center"
                 >
                   <span className="">{item}</span>
-                  <img src={image} alt="" className="w-11" />
+                  <img src={image} alt="" className="w-9 xs:w-11" />
                 </li>
               );
             })}
